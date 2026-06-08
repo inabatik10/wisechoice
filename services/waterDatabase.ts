@@ -1,0 +1,63 @@
+import { WaterBody } from '../types';
+
+export const WATER_BODIES: WaterBody[] = [
+  {
+    id: 'sazdy_aktobe',
+    nameRu: 'Река Сазды',
+    nameKk: 'Сазды өзені',
+    coordinates: { lat: 50.2839, lng: 57.167 },
+    radius: 8000,
+    pH: 7.2,
+    pHSource: 'measured',
+    contamination: {
+      Cr: 0.08,
+      Pb: 0.04,
+      MP: 185,
+    },
+    region: 'Актобе',
+  },
+  {
+    id: 'ilek_river',
+    nameRu: 'Река Илек',
+    nameKk: 'Ілек өзені',
+    coordinates: { lat: 49.9167, lng: 57.3333 },
+    radius: 15000,
+    pH: 7.5,
+    pHSource: 'literature',
+    region: 'Алгинский район',
+  },
+  {
+    id: 'aktobe_reservoir',
+    nameRu: 'Актюбинское водохранилище',
+    nameKk: 'Ақтөбе су қоймасы',
+    coordinates: { lat: 50.31, lng: 57.18 },
+    radius: 3000,
+    pH: 7.8,
+    pHSource: 'estimated',
+    region: 'Актобе',
+  },
+  {
+    id: 'emba_river',
+    nameRu: 'Река Эмба',
+    nameKk: 'Жем өзені',
+    coordinates: { lat: 49.7, lng: 57.15 },
+    radius: 10000,
+    pH: 7.4,
+    pHSource: 'literature',
+    region: 'Мугалжарский район',
+  },
+  {
+    id: 'ural_river',
+    nameRu: 'Река Урал',
+    nameKk: 'Жайық өзені',
+    coordinates: { lat: 51.2, lng: 51.4 },
+    radius: 20000,
+    pH: 7.6,
+    pHSource: 'measured',
+    contamination: {
+      Cr: 0.05,
+      Pb: 0.03,
+    },
+    region: 'Западный Казахстан',
+  },
+];

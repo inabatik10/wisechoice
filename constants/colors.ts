@@ -1,0 +1,17 @@
+export const COLORS = {
+  primary: '#0A3D4A',
+  secondary: '#0D6E85',
+  accent: '#0EADC4',
+  amber: '#F5A623',
+  amberLight: '#FAEEDA',
+  white: '#FFFFFF',
+  offWhite: '#F0F7F9',
+  surface: '#E8F4F7',
+  textPrimary: '#0A2030',
+  textSecondary: '#5A8FA0',
+  success: '#3B8C1A',
+  warning: '#BA7517',
+  danger: '#A32D2D',
+  mockBadge: '#FFF3CD',
+  mockBadgeBorder: '#BA7517',
+};
